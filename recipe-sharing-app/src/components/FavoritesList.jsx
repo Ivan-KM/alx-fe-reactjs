@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react'
-import { useRecipeStore } from '../stores/recipeStore'
+import { useRecipeStore } from './recipeStore'
 
 const FavoritesList = () => {
   // Subscribe separately to recipes and favorites IDs
