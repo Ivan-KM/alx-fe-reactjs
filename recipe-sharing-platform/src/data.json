@@ -3,18 +3,73 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "/images/Spaghetti Carbonara.png"
+    "image": "/images/Spaghetti Carbonara.png",
+    "ingredients": [
+        "200g spaghetti",
+        "100g pancetta or bacon",
+        "2 large eggs",
+        "50g Parmesan cheese, grated",
+        "1 clove garlic, minced",
+        "Salt and black pepper to taste"
+    ],
+    "instructions": [
+        "Cook spaghetti in salted boiling water until al dente.",
+        "Fry pancetta or bacon with garlic until crispy.",
+        "Beat eggs and mix with grated Parmesan cheese.",
+        "Drain spaghetti and combine immediately with egg-cheese mixture.",
+        "Add pancetta and mix well. Season with black pepper.",
+        "Serve hot."
+    ]
     },
     {
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-    "image": "/images/Chicken Tikka Masala.jpg"
+    "image": "/images/Chicken Tikka Masala.jpg",
+    "ingredients": [
+        "500g chicken breast, cubed",
+        "1 cup yogurt",
+        "2 tbsp tikka masala spice",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        "1 inch ginger, grated",
+        "400g canned tomatoes",
+        "100ml cream",
+        "2 tbsp oil",
+        "Salt to taste",
+        "Fresh coriander for garnish"
+    ],
+    "instructions": [
+        "Marinate chicken in yogurt and tikka masala for at least 1 hour.",
+        "Grill or pan-fry chicken until cooked.",
+        "Heat oil in a pan and sauté onion, garlic, and ginger until golden.",
+        "Add tomatoes and simmer for 10 minutes.",
+        "Stir in cream and add the cooked chicken.",
+        "Simmer for another 5-10 minutes and garnish with coriander.",
+        "Serve hot with rice or naan."
+    ]
     },
     {
     "id": 3,
     "title": "Vegetable Stir Fry",
     "summary": "A quick and healthy dish made with colorful vegetables and soy sauce.",
-    "image": "/images/Vegetable Stir Fry.jpeg"
+    "image": "/images/Vegetable Stir Fry.jpeg",
+    "ingredients": [
+        "1 cup broccoli florets",
+        "1 red bell pepper, sliced",
+        "1 carrot, sliced",
+        "1 zucchini, sliced",
+        "2 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "2 cloves garlic, minced",
+        "1 tsp grated ginger"
+    ],
+    "instructions": [
+        "Heat sesame oil in a large pan or wok.",
+        "Add garlic and ginger, sauté until fragrant.",
+        "Add vegetables and stir-fry for 5-7 minutes until tender-crisp.",
+        "Add soy sauce and toss well.",
+        "Serve immediately over rice or noodles."
+    ]
     }
 ]
