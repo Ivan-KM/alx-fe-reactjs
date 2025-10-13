@@ -21,7 +21,7 @@ const PostsComponent = () => {
     staleTime: 60000,
     gcTime: 300000,
     refetchOnWindowFocus: false,
-    keepPreviousData: true, // ✅ Added as required
+    keepPreviousData: true, // ensure this line exists exactly
   });
 
   if (isLoading) return <p>Loading posts...</p>;
