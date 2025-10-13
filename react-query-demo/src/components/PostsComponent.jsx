@@ -16,11 +16,12 @@ const PostsComponent = () => {
     refetch,
     isFetching,
   } = useQuery({
-    queryKey: ["posts"],       // ✅ array form for uniqueness
-    queryFn: fetchPosts,       // ✅ function reference
-    staleTime: 60000,          // ✅ all options inside object
-    gcTime: 300000,            // 🆕 replaced 'cacheTime' in v5
+    queryKey: ["posts"],
+    queryFn: fetchPosts,
+    staleTime: 60000,
+    gcTime: 300000,
     refetchOnWindowFocus: false,
+    keepPreviousData: true, // ✅ Added as required
   });
 
   if (isLoading) return <p>Loading posts...</p>;
