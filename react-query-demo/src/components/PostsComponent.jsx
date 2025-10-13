@@ -19,9 +19,9 @@ const PostsComponent = () => {
     queryKey: ["posts"],
     queryFn: fetchPosts,
     staleTime: 60000,
-    gcTime: 300000,
+    cacheTime: 300000, 
     refetchOnWindowFocus: false,
-    keepPreviousData: true, // ensure this line exists exactly
+    keepPreviousData: true, 
   });
 
   if (isLoading) return <p>Loading posts...</p>;
