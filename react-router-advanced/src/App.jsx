@@ -17,8 +17,6 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
-
-        {/* Protected and Nested Route */}
         <Route
           path="/profile/*"
           element={
@@ -27,8 +25,6 @@ export default function App() {
             </ProtectedRoute>
           }
         />
-
-        {/* Dynamic Route */}
         <Route path="/blog/:postId" element={<BlogPost />} />
       </Routes>
     </div>
