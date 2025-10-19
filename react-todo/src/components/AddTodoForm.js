@@ -11,7 +11,7 @@
     };
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} data-testid="add-todo-form">
         <input
             type="text"
             placeholder="Enter todo"

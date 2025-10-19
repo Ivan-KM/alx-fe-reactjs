@@ -26,23 +26,27 @@
     };
 
     return (
-        <div>
-        <h1>Todo List</h1>
+        <div data-testid="todo-list">
         <AddTodoForm addTodo={addTodo} />
         <ul>
             {todos.map((todo) => (
-            <li key={todo.id}>
+            <li key={todo.id} data-testid={`todo-item-${todo.id}`}>
                 <span
                 onClick={() => toggleTodo(todo.id)}
                 style={{
                     textDecoration: todo.completed ? 'line-through' : 'none',
                     cursor: 'pointer',
                 }}
-                data-testid={`todo-${todo.id}`}
+                data-testid={`todo-text-${todo.id}`}
                 >
                 {todo.text}
                 </span>
-                <button onClick={() => deleteTodo(todo.id)}>Delete</button>
+                <button
+                onClick={() => deleteTodo(todo.id)}
+                data-testid={`delete-todo-${todo.id}`}
+                >
+                Delete
+                </button>
             </li>
             ))}
         </ul>

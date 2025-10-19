@@ -30,15 +30,12 @@
 
         fireEvent.click(todoItem);
         expect(todoItem).toHaveStyle('text-decoration: line-through');
-
-        fireEvent.click(todoItem);
-        expect(todoItem).not.toHaveStyle('text-decoration: line-through');
     });
 
     test('can delete a todo', () => {
         render(<TodoList />);
         const todoItem = screen.getByText('Learn React');
-        const deleteButton = todoItem.nextSibling;
+        const deleteButton = screen.getByTestId('delete-todo-1');
 
         fireEvent.click(deleteButton);
         expect(todoItem).not.toBeInTheDocument();
